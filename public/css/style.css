@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    background: #d3d1c1;
+}
+
+.offset:before{
+    display: block;
+    content: "";
+    height: 6rem;
+}
+
+.navbar{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    background: rgba(0, 0, 0, 0.6) !important;
+    text-align:center;
+    padding: 15px 0;
+}
+
+
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+    padding-left: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:#CCA085;
+}
+
+.heading-contents{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.heading-contents h5{
+    font-size: 3em;
+    font-weight: 300;
+    color: #fff;
+    font-family: monospace;
+}
+
+.heading-contents h1{
+    font-size: 4em;
+    font-weight: bolder;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading-contents p{
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #ccc;
+    letter-spacing: 2px;
+}
+
+.display-4{
+    font-family: 'Dancing Script', cursive;
+}
+
+.card-text{
+    font-weight: lighter;
+}
+
+.card{
+    margin-bottom: 2em;
+}
+
+
+/*-----------About Us---------*/
+
+
+/*----icons-----*/
+/* Style all font awesome icons */
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 2em;
+  }
+
+
+
+  /* Add a hover effect if you want */
+/*.fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  /* Facebook */
+/*.fa-facebook {
+    background: rgb(45, 45, 46);
+    color: white;
+  }
+
+  /*Twitter */
+/*.fa-twitter {
+    background: rgb(45, 45, 46);
+    color: white;
+  }*/
+
+.wrapper {   
+    justify-content: center; 
+    align-items: center;
+    } 
+
+.wrapper i {   
+    padding: 0px;   
+   /*text-shadow: 0px 6px 8px rgb(15, 15, 15);*/   
+    transition: all ease-in-out 150ms;
+    } 
+
+.wrapper a:nth-child(1) {   
+    color: #080404; 
+    } 
+.wrapper a:nth-child(2) {   
+    color: #080404; 
+    } 
+.wrapper a:nth-child(3) {   
+    color: #080404; 
+    } 
+.wrapper i:hover {   
+   /* margin-top: -3px;*/   
+    text-shadow: 0px 0px 15px #CCA085; 
+    }
+
+
+
+#socials p{
+    font-weight: lighter;
+}
+
+#socials-vnc .wrapper i {   
+    padding: 0px;   
+   /* text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);*/   
+    transition: all ease-in-out 150ms;
+
+    } 
+#socials-vnc .wrapper a:nth-child(1) {   
+    color: #080404; 
+    } 
+#socials-vnc .wrapper a:nth-child(2) {   
+    color: #080404; 
+    } 
+#socials-vnc .wrapper a:nth-child(3) {   
+    color: #080404; 
+    } 
+#socials-vnc .wrapper i:hover {   
+   /* margin-top: -3px;*/   
+    text-shadow: 0px 0px 15px #CCA085;
+    }
+
+.fluid{
+    background-color: rgba(0, 0, 0, 0.6);
+}
